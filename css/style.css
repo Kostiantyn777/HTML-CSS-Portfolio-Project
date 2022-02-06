@@ -6,3 +6,12 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff8f0;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
