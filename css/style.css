@@ -34,3 +34,42 @@ nav a {
 nav a:hover {
   border-bottom: 2px solid #e2e4e585;
 }
+header {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+  }
+  header::after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+  }
+  header * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  header p {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+  }
